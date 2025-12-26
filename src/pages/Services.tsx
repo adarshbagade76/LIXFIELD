@@ -10,7 +10,7 @@ import {
   FaHandshake,
   FaChartLine,
 } from "react-icons/fa";
-import type { ElementType, FC } from 'react';
+import type { FC } from 'react';
 
 type IconProps = { className?: string };
 type Service = {

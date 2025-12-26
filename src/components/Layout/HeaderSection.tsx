@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import AnimatedLogo from '../Footer/AnimatedLogo'
 
 const HeaderSection: React.FC = () => {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -18,9 +17,6 @@ const HeaderSection: React.FC = () => {
                 alt="Lixfield Logo"
                 className="h-10 w-14 object-contain"
               />
-              <div className="flex items-center bg-transparent mix-blend-multiply">
-                {/* <AnimatedLogo src="assests/Primary Icons/logointro.mp4" size={80} /> */}
-              </div>
 
               <span className="font-semibold text-base md:text-lg text-gray-900 leading-tight">
                 Lixfield Import & Export LLP

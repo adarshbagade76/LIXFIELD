@@ -41,8 +41,8 @@ const FooterSection: React.FC = () => {
             <p className="text-sm text-gray-400">Copyright 2025 LIXFIELD</p>
 
             <div className="flex items-center gap-4">
-              <a href="#" aria-label="Instagram" className="text-white bg-transparent border border-white rounded-full w-8 h-8 flex items-center justify-center">IG</a>
-              <a href="#" aria-label="Facebook" className="text-white bg-transparent border border-white rounded-full w-8 h-8 flex items-center justify-center">f</a>
+              <a href="/" aria-label="Instagram" className="text-white bg-transparent border border-white rounded-full w-8 h-8 flex items-center justify-center">IG</a>
+              <a href="/" aria-label="Facebook" className="text-white bg-transparent border border-white rounded-full w-8 h-8 flex items-center justify-center">f</a>
             </div>
           </div>
         </div>

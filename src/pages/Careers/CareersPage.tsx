@@ -63,7 +63,7 @@ const CareersPage: React.FC = () => {
                 </div>
 
                 <div className="mt-6 flex items-center justify-between">
-                  <a className="text-sm text-emerald-600 font-medium" href="#">View & Apply</a>
+                  <a className="text-sm text-emerald-600 font-medium" href="/">View & Apply</a>
                   <button className="text-sm px-3 py-2 bg-white border rounded hover:shadow">Save</button>
                 </div>
               </article>
