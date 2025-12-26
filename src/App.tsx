@@ -1,8 +1,8 @@
-﻿import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HeaderSection from './components/Layout/HeaderSection'
 import WhatsAppButton from './components/Layout/WhatsAppButton'
-import './App.css'
-import Home from './pages/Home'
+import './App.css';
+import Home from './pages/Home';
 import Services from './pages/Services'
 import Products from './pages/Products'
 import Certification from './pages/Certification'
