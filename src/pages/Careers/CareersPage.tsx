@@ -7,14 +7,6 @@ type Opening = {
   type: string
 }
 
-const openings: Opening[] = [
-  { id: 1, title: 'Front-end Designer', location: 'Sydney, Australia', type: 'Full Time' },
-  { id: 2, title: 'Lead Designer', location: 'San Francisco, USA', type: 'Remote' },
-  { id: 3, title: 'Head Of Idea', location: 'Sidney, Australia', type: 'Full Time' },
-  { id: 4, title: 'Front-end Designer', location: 'Sydney, Australia', type: 'Full Time' },
-  { id: 5, title: 'Head Of Idea', location: 'Sidney, Australia', type: 'Full Time' },
-]
-
 const CareersPage: React.FC = () => {
   return (
     <main className="min-h-screen text-zinc-800">
