@@ -1,12 +1,5 @@
 import React from 'react'
 
-type Opening = {
-  id: number
-  title: string
-  location: string
-  type: string
-}
-
 const CareersPage: React.FC = () => {
   return (
     <main className="min-h-screen text-zinc-800">
