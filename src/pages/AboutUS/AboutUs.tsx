@@ -6,26 +6,28 @@ const AboutUs: React.FC = () => {
             <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div>
                     <p className="text-sm text-amber-500 font-semibold mb-2">About Our Company</p>
-                    <h1 className="text-4xl sm:text-5xl font-bold text-[#08363b] mb-4">LixFIELD Import & Export LLP</h1>
-                    <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                        LixFIELD Import & Export LLP is a trusted international trading partner specializing in
-                        sourcing, exporting, and delivering quality goods worldwide. We combine deep market knowledge
-                        with robust logistics and compliance capabilities to help manufacturers, wholesalers, and
-                        retailers move products across borders efficiently and reliably.
-                    </p>
+                    <h1 className="text-4xl sm:text-5xl font-bold text-[#08363b] mb-4">Lixfield Import And Export LLP</h1>
+                    <div className="prose max-w-4xl  text-gray-700 style={{ fontFamily: 'Roboto, sans-serif' }}">
+                        <p>
+                            Lixfield Import And Export LLP is a trusted international trading partner specializing in
+                            sourcing, exporting, and delivering quality goods worldwide. We combine deep market knowledge
+                            with robust logistics and compliance capabilities to help manufacturers, wholesalers, and
+                            retailers move products across borders efficiently and reliably.
+                        </p>
+                        <p>
+                            Our services include supplier vetting, quality inspection coordination, customs documentation,
+                            freight forwarding coordination, and end-to-end shipment tracking. We pride ourselves on
+                            transparent pricing, timely communication, and a customer-first approach that simplifies
+                            international trade for businesses of all sizes.
+                        </p>
+                    </div>
 
-                    <p className="text-gray-700 text-lg leading-relaxed">
-                        Our services include supplier vetting, quality inspection coordination, customs documentation,
-                        freight forwarding coordination, and end-to-end shipment tracking. We pride ourselves on
-                        transparent pricing, timely communication, and a customer-first approach that simplifies
-                        international trade for businesses of all sizes.
-                    </p>
                 </div>
 
                 <div className="flex justify-center lg:justify-end">
                     <div className="w-full max-w-md rounded-lg overflow-hidden shadow-lg bg-white">
                         <div className="w-full h-64 bg-gray-100 flex items-center justify-center text-gray-400">
-                            <span className="text-center">Image placeholder for LixFIELD team / warehouse</span>
+                            <span><img src='assests/Primary Icons/companyImgLogo.jpeg' alt='About Us Illustration' className="w-full h-full object-cover" /></span>
                         </div>
                         <div className="p-6">
                             <h3 className="text-xl font-semibold text-[#08363b] mb-2">Global Reach, Local Care</h3>
@@ -42,9 +44,9 @@ const AboutUs: React.FC = () => {
 
 
                     {/* Content */}
-                 <section className="mt-16">
-  <div
-    className="
+                    <section className="mt-16">
+                        <div
+                            className="
       w-full
       rounded-xl
       shadow-sm
@@ -55,22 +57,22 @@ const AboutUs: React.FC = () => {
       gap-4 sm:gap-6
       items-start
     "
-  >
-  
+                        >
 
-    {/* Content */}
-    <div>
-      <h2 className="text-xl sm:text-2xl font-bold text-[#08363b] mb-2">
-        Our Vision
-      </h2>
-      <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
-        To be a leading, trusted facilitator of global trade by empowering businesses
-        to reach new markets with integrity, efficiency, and sustainability. We
-        envision a world where borders are no longer a barrier to growth.
-      </p>
-    </div>
-  </div>
-</section>
+
+                            {/* Content */}
+                            <div>
+                                <h2 className="text-xl sm:text-2xl font-bold text-[#08363b] mb-2">
+                                    Our Vision
+                                </h2>
+                                <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+                                    To be a leading, trusted facilitator of global trade by empowering businesses
+                                    to reach new markets with integrity, efficiency, and sustainability. We
+                                    envision a world where borders are no longer a barrier to growth.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
 
 
 

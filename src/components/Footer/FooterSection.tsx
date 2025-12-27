@@ -26,8 +26,11 @@ const FooterSection: React.FC = () => {
 
           <div className="flex flex-col items-start md:items-end">
             <h4 className="text-sm tracking-widest text-gray-200 mb-4">ADDRESS</h4>
+
             <div className="text-base text-left md:text-right" style={{ color: '#c69c3a' }}>
+
               <p className="font-semibold">Head Office:</p>
+              <p>Lixfield Import And Export LLP </p>
               <p>RS NO 248 PLOT NO 23 Masari NISARGA BADAVANE </p>
               <p>GADAG Karnataka 582101</p>
             </div>
@@ -42,11 +45,11 @@ const FooterSection: React.FC = () => {
 
             <div className="flex items-center gap-4">
               <a href="/" aria-label="Instagram" className="text-white bg-transparent  w-8 h-8 flex items-center justify-center">
-                <img src="assests/Primary Icons/insta.jpeg" alt="Instagram" className="w-10 h-10" />
+                <img src="assests/Primary Icons/insta.jpeg" alt="Instagram" className="w-8 h-8" />
               </a>
               <a href="/" aria-label="Facebook" className="text-white bg-transparent  w-8 h-8 flex items-center justify-center">
                 <img
-                   src="assests/Primary Icons/fbimg.jpeg"
+                  src="assests/Primary Icons/fbimg.jpeg"
                   alt="Facebook"
                   className="w-10 h-10"
                 />
@@ -58,7 +61,7 @@ const FooterSection: React.FC = () => {
                   className="w-10 h-10"
                 />
               </a>
-        
+
             </div>
           </div>
         </div>

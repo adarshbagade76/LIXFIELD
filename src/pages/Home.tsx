@@ -8,7 +8,7 @@ import { openComposeEmail } from '../components/HeroContactButton/HeroContactBut
 
 const Home: React.FC = () => {
     const carouselImages: string[] = [
-        '/assests/Primary%20Icons/company1img.jpeg',
+        'assests/Primary Icons/companyImgLogo.jpeg',
         '/assests/Primary%20Icons/company2img.jpeg',
         '/assests/Primary%20Icons/company3img.jpeg'
     ];
@@ -26,44 +26,45 @@ const Home: React.FC = () => {
     return (
         <>
             {/* ================= HERO / BANNER SECTION ================= */}
-            <section className="relative min-h-screen flex items-start text-white overflow-hidden">
-                {/* Background Image */}
-                <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{
-                        backgroundImage:
-                            `url('assests/Primary Icons/shippimgimg2.jpg')`
-                    }}
-                />
+<section className="relative h-[85vh] sm:h-screen w-full text-white overflow-hidden">
 
-                {/* Top-left label */}
-                <p className="absolute top-8 left-6 sm:top-8 sm:left-10 text-2xl tracking-widest text-white font-extrabold z-20">
-                    Your Trusted
-                </p>
+  {/* Background Image */}
+  <div
+    className="absolute inset-0 bg-center bg-no-repeat bg-cover"
+    style={{
+      backgroundImage: `url('/assests/Primary%20Icons/demoshippingImg.jpeg')`,
+    }}
+  />
 
-                {/* Content */}
-                <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 pt-20 sm:pt-24 lg:pt-28 md:text-xl lg:text-xl mt-4 pl-6 sm:pl-8 md:pl-12">
+  {/* Overlay (optional – improves text contrast) */}
+  <div className="absolute inset-0  z-10" />
 
-                    <h1 className="text-xl sm:text-5xl lg:text-6xl font-extrabold leading-tight sm:whitespace-nowrap">
-                        Partner In{' '}
-                        <span className="text-yellow-400">International Trade!</span>
-                    </h1>
+  {/* Top-left label */}
+  <p className="absolute top-14 left-6 sm:top-8 sm:left-10 text-lg sm:text-2xl tracking-widest font-extrabold z-20">
+    Your Trusted
+  </p>
+
+  {/* Main Content */}
+  <div className="relative z-20 max-w-7xl mx-auto px-6 sm:px-10 pt-24 sm:pt-32">
+    <h1 className="text-xl sm:text-5xl lg:text-6xl font-extrabold leading-tight max-w-4xl ml-14">
+      Partner In{" "}
+      <span className="text-yellow-400">International Trade!</span>
+    </h1>
+  </div>
+
+  {/* Contact Button */}
+  <div className="absolute bottom-6 left-6 sm:bottom-10 sm:left-10 z-20">
+    <button
+      className="px-6 py-3 rounded-full bg-gradient-to-r from-red-500 to-orange-500 text-white font-semibold shadow-lg hover:scale-105 transition"
+      onClick={() => openComposeEmail('trade@globalexportslixfield.com')}
+    >
+      Contact Us
+    </button>
+  </div>
+
+</section>
 
 
-                </div>
-
-                {/* Contact button fixed to bottom-left of hero image */}
-                <div className="absolute bottom-6 sm:bottom-8 left-6 sm:left-10 z-20">
-                    <div className="flex gap-4">
-                        <button
-                            className="px-6 py-3 rounded-full bg-gradient-to-r from-red-500 to-orange-500 text-white font-semibold shadow-lg hover:scale-105 transition"
-                            onClick={() => openComposeEmail('trade@globalexportslixfield.com')}
-                        >
-                            Contact Us
-                        </button>
-                    </div>
-                </div>
-            </section>
 
             <div className="relative max-w-7xl mx-auto px-8 sm:px-10 lg:px-16 pt-6 pb-12 lg:pt-8 lg:pb-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

@@ -1,4 +1,5 @@
 import React from "react";
+import openComposeEmail from "../../components/HeroContactButton/HeroContactButton";
 
 const ChatCard = () => {
   return (
@@ -51,8 +52,9 @@ const ChatCard = () => {
             className="bg-pink-200 text-gray-700 text-sm 
               px-5 py-2.5 rounded-xl hover:bg-pink-300 
               transition font-medium"
+               onClick={() => openComposeEmail('trade@globalexportslixfield.com')}
           >
-            Send message
+            Send Email
           </button>
 
         </form>

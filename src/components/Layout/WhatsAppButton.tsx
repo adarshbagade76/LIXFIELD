@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WHATSAPP_NUMBER = '919008696544' // +91 9008696544
+const WHATSAPP_NUMBER = '6364268140' //
 const PRE_FILLED_MESSAGE = '' // optional: add a URL-encoded message here
 
 const WhatsAppButton: React.FC = () => {
