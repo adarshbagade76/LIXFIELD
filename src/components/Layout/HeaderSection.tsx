@@ -19,7 +19,7 @@ const HeaderSection: React.FC = () => {
               />
 
               <span className="font-semibold text-base md:text-lg text-gray-900 leading-tight">
-                Lixfield Import & Export LLP
+               LIXFIELD IMPORT AND EXPORT LLP
               </span>
             </Link>
 

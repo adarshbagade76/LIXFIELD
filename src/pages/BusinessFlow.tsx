@@ -48,7 +48,7 @@ const BusinessFlow: React.FC = () => {
   return (
     <section
       className="relative bg-cover bg-center py-20"
-      style={{ backgroundImage: `url(${encodeURI('/assests/Primary Icons/AI Automation News.jpg')})` }}
+      style={{ backgroundImage: `url(${encodeURI('assests/Primary Icons/bgimg12345.jpeg')})` }}
     >
       <div className="absolute inset-0 bg-black/65" />
 

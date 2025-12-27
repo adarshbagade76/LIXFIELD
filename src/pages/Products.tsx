@@ -21,10 +21,6 @@ const products = [
     title: 'Eco Friendly Cutlery',
     img: 'assests/Primary Icons/ArecaLeafPlates1.jpeg',
   },
-  {
-    title: 'Seeds & Kernels',
-    img: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=60',
-  },
 ]
 
 const Products: React.FC = () => {
