@@ -51,7 +51,7 @@ const Certification: React.FC = () => {
 
         <div className="py-12 bg-gray-50 rounded-lg mt-6">
           <div className="max-w-5xl mx-auto px-4">
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between mb-6">
               <h3 className="text-xl font-semibold text-gray-700">Certifications & Registrations</h3>
               <p className="text-sm text-gray-500">Trusted by government boards and trade associations</p>
             </div>
